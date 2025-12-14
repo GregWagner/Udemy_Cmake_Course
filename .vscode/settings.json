@@ -5,27 +5,13 @@
     ],
     "editor.renderWhitespace": "trailing",
     "editor.suggestSelection": "first",
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.stickyScroll.enabled": false,
-    "editor.bracketPairColorization.enabled": false,
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.suggest.preview": true,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "debug.onTaskErrors": "debugAnyway",
     "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "explorer.copyRelativePathSeparator": "/",
     "files.autoSave": "onFocusChange",
-    "files.exclude": {
-        "node_modules/**/*": true,
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
     "files.associations": {
         ".clang*": "yaml",
         "*.hpp.in": "cpp",
@@ -34,22 +20,14 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.startupEditor": "none",
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor",
         "*.svg": "svgPreviewer.customEditor"
     },
-    "workbench.colorTheme": "Default Dark+",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.openRepositoryInParentFolders": "always",
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.trailingComma": "all",
-    "prettier.useEditorConfig": true,
-    "prettier.bracketSpacing": false,
     "markdown.validate.enabled": true,
     "[markdown]": {
         "files.trimTrailingWhitespace": false,
@@ -63,13 +41,6 @@
         "editor.defaultFormatter": "redhat.vscode-yaml",
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 120
-    },
-    "[json]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[jsonc]": {
-        "editor.formatOnSave": false
     },
     "[plaintext]": {
         "editor.wordWrap": "wordWrapColumn",
